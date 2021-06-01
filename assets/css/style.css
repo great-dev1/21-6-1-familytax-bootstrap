@@ -16,6 +16,10 @@ h1, h2, h3, h4, h5, h6, p {
   color: #224b7e;
 }
 
+.blue-text {
+  color: #0174c7;
+}
+
 /* Navbar */
 
 .navbar {
@@ -102,10 +106,12 @@ h1, h2, h3, h4, h5, h6, p {
   margin-top: 25px;
   font-size: 18px;
   font-weight: 500;
+  line-height: 2;
 }
 
 .hero-form {
   border-radius: 10px;
+  box-shadow: 0px 3px 19px -16px rgb(0 0 0 / 75%);
   overflow: hidden;
 }
 
@@ -176,4 +182,54 @@ h1, h2, h3, h4, h5, h6, p {
 .review-detail {
   font-size: 20px;
   color: #343434;
+}
+
+/* Intro Section */
+
+.intro-section {
+  padding: 50px 15px;
+  background-color: #f8f8f8;
+}
+
+.intro-card {
+  max-width: 550px;
+  padding: 20px;
+  border-top: 5px solid #254774;
+  background-color: white;
+  box-shadow: 0px 3px 19px -16px rgb(0 0 0 / 75%);
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.intro-card:hover {
+  transform: scale(1.03);
+}
+
+.intro-title {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: -1px;
+}
+
+.intro-detail {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.intro-list {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 2;
+  letter-spacing: -1px;
+}
+
+@media (min-width: 992px) {
+  .intro-card {
+    margin-left: -30px;
+    padding: 20px 40px 10px;
+  }
+  .intro-title {
+    font-size: 32px;
+  }
 }
