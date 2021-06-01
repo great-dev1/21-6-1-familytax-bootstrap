@@ -2,6 +2,7 @@
 
 body {
   font-family: sans-serif;
+  color: #212529;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -143,7 +144,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .hero-form-btn {
-  height: 48px;
+  padding: 10px 25px;
   margin-bottom: 10px;
   font-size: 16px;
   font-weight: 200;
@@ -210,6 +211,7 @@ h1, h2, h3, h4, h5, h6, p {
   font-weight: 500;
   line-height: 1.3;
   letter-spacing: -1px;
+  color: #2d2d2d;
 }
 
 .intro-detail {
@@ -225,11 +227,107 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 @media (min-width: 992px) {
+  .intro-section {
+    padding: 120px 0 80px;
+  }
   .intro-card {
     margin-left: -30px;
     padding: 20px 40px 10px;
   }
   .intro-title {
     font-size: 32px;
+  }
+}
+
+/* How Section */
+
+.how-section {
+  padding: 50px 0;
+}
+
+.how-subtitle {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #233c5f;
+}
+
+.how-title {
+  font-size: 30px;
+  line-height: 1.3;
+  letter-spacing: -1px;
+  color: #2d2d2d;
+}
+
+.how-card-group {
+  position: relative;
+}
+
+.navy-bg {
+  position: absolute;
+  z-index: -1;
+  top: 30px;
+  left: -15px;
+  bottom: 30px;
+  right: -15px;
+  border-radius: 10px;
+  background-image: linear-gradient( 189deg, rgb(35, 60, 95) 1%, rgb(41, 92, 158) 100%);
+}
+
+.how-card {
+  height: 100%;
+  padding: 25px;
+  border-top: 5px solid #254774;
+  border-radius: 10px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 4px 22px -13px;
+  background-color: white;
+}
+
+.how-card-img {
+  width: 75px;
+  height: auto;
+}
+
+.how-card-subtitle {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #233c5f;
+}
+
+.how-card-title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.how-card-detail {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.start-btn {
+  padding: 10px 40px;
+  border-radius: 3px;
+  font-size: 18px;
+  font-weight: 200;
+  background-color: #233c5f;
+  transition: 0.3s;
+}
+
+.start-btn:hover {
+  background-color: grey;
+}
+
+@media (min-width: 992px) {
+  .how-section {
+    padding: 80px 0;
+  }
+  .how-title {
+    font-size: 36px;
+  }
+  .navy-bg {
+    left: -20px;
+    right: -20px;
   }
 }
