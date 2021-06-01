@@ -447,3 +447,24 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 38px;
   }
 }
+
+/* Footer */
+
+.footer {
+  padding: 40px 0;
+}
+
+.footer-detail {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer-link {
+  font-weight: bold;
+  color: #233c5f;
+  transition: 0.3s;
+}
+
+.footer-link:hover {
+  color: grey;
+}
