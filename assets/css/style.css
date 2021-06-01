@@ -412,3 +412,12 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 36px;
   }
 }
+
+/* Video Section */
+
+.video-item {
+  height: 193px;
+  border: 5px solid #233c5f;
+  border-radius: 10px;
+  background-color: lightgrey;
+}
