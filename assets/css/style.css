@@ -377,7 +377,7 @@ h1, h2, h3, h4, h5, h6, p {
 .testi-card {
   padding: 30px 20px;
   border-radius: 10px;
-  box-shadow: 0px 3px 19px -16px rgb(0 0 0 / 75%);
+  box-shadow: 0px 5px 25px -16px rgb(0 0 0 / 75%);
 }
 
 .testi-card-title {
@@ -462,6 +462,7 @@ h1, h2, h3, h4, h5, h6, p {
 .accordion-button {
   border-left: 5px solid #fce300;
   font-size: 18px;
+  font-weight: bold;
   line-height: 1.3;
 }
 
