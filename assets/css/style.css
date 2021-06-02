@@ -80,10 +80,11 @@ h1, h2, h3, h4, h5, h6, p {
 
 .hero-section {
   margin-top: 98px;
-  padding: 50px 0;
+  padding: 30px 0;
   background-image: url(https://images.clickfunnels.com/dc/bde96c1bc340c793107f5d47e8da84/bgblue.jpg);
-  background-position: center right;
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-title {
@@ -229,7 +230,7 @@ h1, h2, h3, h4, h5, h6, p {
 /* How Section */
 
 .how-section {
-  padding: 50px 0;
+  padding: 50px 10px;
 }
 
 .section-subtitle {
@@ -453,6 +454,7 @@ h1, h2, h3, h4, h5, h6, p {
   border-left: 5px solid #fce300;
   border-radius: 3px;
   font-size: 18px;
+  line-height: 1.3;
 }
 
 .accordion-button:focus {
@@ -496,7 +498,7 @@ h1, h2, h3, h4, h5, h6, p {
 .start-block {
   max-width: 995px;
   margin: 30px auto 0;
-  padding: 30px 60px;
+  padding: 30px;
   background-color: white;
 }
 
@@ -514,6 +516,7 @@ h1, h2, h3, h4, h5, h6, p {
   }
   .start-block {
     margin: 80px auto 0;
+    padding: 30px 60px;
   }
 }
 
