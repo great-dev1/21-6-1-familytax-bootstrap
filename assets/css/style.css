@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .nav-link {
-  padding: 15px !important;
+  padding: 14px !important;
   font-size: 13px;
   font-weight: 700;
   color: #233c5f !important;
@@ -418,7 +418,6 @@ h1, h2, h3, h4, h5, h6, p {
   height: 193px;
   border: 5px solid #233c5f;
   border-radius: 10px;
-  background-color: lightgrey;
 }
 
 /* Start Section */
@@ -525,7 +524,7 @@ h1, h2, h3, h4, h5, h6, p {
   }
   .start-block {
     margin: 80px auto 0;
-    padding: 30px 60px;
+    padding: 30px 50px;
   }
 }
 
