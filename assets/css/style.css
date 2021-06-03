@@ -21,6 +21,14 @@ h1, h2, h3, h4, h5, h6, p {
   color: #0174c7;
 }
 
+#top {
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+
 /* Navbar */
 
 .navbar {
@@ -343,7 +351,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .reason-card {
-  padding: 30px 45px;
+  padding: 30px;
   border-radius: 10px;
   background-color: white;
 }
@@ -365,6 +373,9 @@ h1, h2, h3, h4, h5, h6, p {
   }
   .reason-title {
     font-size: 32px;
+  }
+  .reason-card {
+    padding: 30px 45px;
   }
 }
 
